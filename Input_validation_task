@@ -1,0 +1,7 @@
+class UserInputValidator:
+    def validate_positive_integer(self, string_list):
+        temp_list = []
+        for item in string_list:
+            if item.isdigit() and int(item) > 0:
+                temp_list.append(int(item))
+        return temp_list
