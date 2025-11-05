@@ -1,0 +1,9 @@
+UserInputValidator has 2 methods:
+
+1. validate_positive_integer
+    cheks string_list for numbers grater than 0
+    returns those numbers as a list
+
+2. validation_message
+    checks if our list if numbers exists
+    returns a mesage conferming or denying its existance
