@@ -1,9 +1,22 @@
-UserInputValidator has 2 methods:
+Input_validation_task.py contains:
+    UserInputValidator has 2 methods:
 
-1. validate_positive_integer
-    cheks string_list for numbers grater than 0
-    returns those numbers as a list
+    1. validate_positive_integer
+        cheks string_list for numbers grater than 0
+        returns those numbers as a list
 
-2. validation_message
-    checks if our list if numbers exists
-    returns a mesage conferming or denying its existance
+    2. validation_message
+        checks if our list if numbers exists
+        returns a mesage conferming or denying its existance
+
+
+instance_testing.py contains:
+    2 instances of UserInputValidator
+
+
+extra.txt contains:
+    pie to the 12th digit
+
+
+.gitignore ignores:
+    extra.txt
