@@ -11,7 +11,10 @@ Input_validation_task.py contains:
 
 
 instance_testing.py contains:
-    2 instances of UserInputValidator
+    2 instances of UserInputValidator:
+        both are given lists
+        both call validate_positive_integer
+        both call and print validation_message
 
 
 extra.txt contains:
